@@ -1,0 +1,25 @@
+.searchbar-container {
+    display: flex;
+}
+
+#searchbar {
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#searchbar {
+    flex: 1;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding: 0 15px;
+    text-align: center;
+    transition:
+        border-color 250ms ease-in-out,
+        box-shadow 250ms ease-in-out;
+}
+
+#searchbar:focus {
+    outline: none;
+    border-color: #e86020;
+    box-shadow: 0 4px 0 0 #e86020;
+}
